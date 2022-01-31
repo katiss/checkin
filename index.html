@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+<title>Button</title>
+<body>
+    <p id=”button”>Check In?</p>
+    <button id=”details”>Check In</button>
+    
+
+
+</body>
+<script src="js/alert.js">
+    </script>
+<script>/*global document */
+
+document.getElementById('details').onclick = function () {
+    "use strict";
+    document.getElementById('button').innerHTML = "Check In Successful";
+    document.getElementById('details').style.display = "none";
+};</script></html>
